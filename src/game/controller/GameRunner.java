@@ -5,7 +5,7 @@ public class GameRunner
 
 	public static void main (String [] args)
 	{
-		GameRunner myGameController = new GameRunner();
+		GameController myGameController = new GameController();
 		myGameController.start();
 	}
 }
