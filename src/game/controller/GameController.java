@@ -47,7 +47,6 @@ public class GameController
 	{
 		System.out.println(".....");
 		System.out.println(".....");
-		System.out.println(".....");
 		System.out.println("Do you wish to play against a human? Or the computer?");
 		String playAgainst = gameInput.nextLine();
 		if (playAgainst.equals("human"))
@@ -73,6 +72,8 @@ public class GameController
 	
 	private void startComputerGame()
 	{
+		System.out.println("What difficulty? normal/impossible?");
+		String computerDifficulty = gameInput.nextLine();
 		
 	}
 	
@@ -91,9 +92,12 @@ public class GameController
 		int gameContinue = 1;
 		
 		
-		for(gameContinue = (1))
+		for(i == 1;) 
 		{
 			
+			
+			
+			i++;
 		}
 	}
 	
